@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 body {
-    overflow-x: hidden;
-    background-color: #eee;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+
+.bg-space-500 {
+  background-color: #211f30;
+}
+.bg-space-400 {
+  background-color: #322f4a;
+}
+.bg-space-200 {
+  background-color: #8e8aa8;
+}
+.bg-space-300 {
+  background-color: #686385;
+}
+.bg-eee {
+  background-color: #eee;
 }

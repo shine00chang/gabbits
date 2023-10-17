@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/output.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Nav Bar -->
   <div class="flex w-full h-24 bg-stone-300 items-center px-24">
     <div> 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -36,28 +38,106 @@
     </div>
   </div>
 
-  <div class="py-12 h-screen" style="padding-left: 20vw; padding-right: 20vw;">
+  <!-- Title Page -->
+  <div class="py-12 h-screen" style="padding-left: 4vw">
+
+    <!-- Corner Rect -->
     <div class="absolute z-10 w-full">
-      <div class="relative bg-stone-500 w-80 h-48 rounded" style="left: 25rem">
-      </div>
+      <div class="relative bg-stone-500 rounded top-16" style="width: 32vw; height: 40vh; left: 60vw">
     </div>
+    </div>
+
+    <!-- Right Rect -->
     <div class="absolute z-0 w-full">
-      <div class="relative bg-stone-300 h-48 rounded" style="left: 10rem; top: 12rem; width: 33rem">
+      <div class="relative bg-stone-300 rounded" style="left: 40vw; top: 45vh; width: 42vw; height: 30vh">
       </div>
     </div>
 
+    <!-- Content Box -->
     <div class="absolute z-20">
-      <h1 class="mx-6 text-6xl font-bold relative top-5">
+      <h1 class="mx-6 text-9xl font-bold relative top-8">
         Cabbages.
       </h1>
 
-      <div class="bg-stone-400 h-64 rounded py-10 px-16" style="width: 40rem">
-        <div class="underline font-bold text-3xl">Does Fun Things</div>
-        <div class="font-bold text-2xl">Ocassionally</div>
+    <!-- Main Rect -->
+      <div class="bg-stone-400 rounded py-16 px-16 space-y-6" style="width: 75vw; height: 50vh">
+        <div class="italic font-bold text-3xl">Does Fun Things</div>
+        <div class="text-2xl">Ocassionally</div>
       </div>
     </div>
   </div>
 
+  <!-- Blocky Divider -->
+  <div class="grid grid-cols-8 bg-space-500 pb-10">
+    <div>
+      <div class="h-8 bg-eee"></div>
+      <div class="bg-space-200">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+      <div class="bg-stone-500">&nbsp;</div>
+      <div class="bg-stone-600">&nbsp;</div>
+    </div>
+    <div>
+      <div class="bg-space-200">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+    </div>
+    <div>
+      <div class="h-12 bg-eee"></div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-stone-500">&nbsp;</div>
+      <div class="bg-stone-500">&nbsp;</div>
+    </div>
+    <div>
+      <div class="h-16 bg-eee"></div>
+      <div class="bg-space-200">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+    </div>
+    <div>
+      <div class="h-2 bg-eee"></div>
+      <div class="bg-stone-200">&nbsp;</div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-stone-500">&nbsp;</div>
+    </div>
+    <div>
+      <div class="bg-stone-200">&nbsp;</div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-stone-500">&nbsp;</div>
+    </div>
+    <div>
+      <div class="h-8 bg-eee"></div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>
+    </div>
+    <div>
+      <div class="h-4 bg-eee"></div>
+      <div class="bg-stone-300">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-stone-400">&nbsp;</div>
+      <div class="bg-space-300">&nbsp;</div>
+      <div class="bg-space-400">&nbsp;</div>    
+      <div class="bg-space-400">&nbsp;</div>    
+    </div>
+  </div>
+
+  <!-- Space Section -->
+
+  <div class="bg-space-500" style="height: 100vh">
+    <h1 class="mx-6 text-9xl font-bold text-slate-300">
+      Spacious!
+    </h1>   
+  </div>
 </body>
 
 </html>
